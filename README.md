@@ -12,22 +12,22 @@ next-generation UX intelligence 2026
 ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
 ```
 
-### *Next-Generation UX Intelligence Framework*
+### *Next-Generation UX Intelligence — AI Prompt Library*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-0f172a?style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-6366f1?style=for-the-badge)](CHANGELOG.md)
-[![Lighthouse](https://img.shields.io/badge/Lighthouse-90%2B_Mobile-22c55e?style=for-the-badge)](docs/performance.md)
+[![Works With](https://img.shields.io/badge/Works%20With-Cursor%20%7C%20Copilot%20%7C%20Claude%20%7C%20Windsurf-10b981?style=for-the-badge)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-f59e0b?style=for-the-badge)](CONTRIBUTING.md)
-[![Status](https://img.shields.io/badge/Status-Active-10b981?style=for-the-badge)]()
 
 <br/>
 
-> **NexaUX** is an AI-powered, data-driven website enhancement framework built  
-> for teams who refuse to guess — and insist on converting.
+> **NexaUX** is a curated library of AI agent prompts that instruct any  
+> AI-powered IDE to build, enhance, and optimize your website for you.  
+> No manual coding. Just paste, run, and ship.
 
 <br/>
 
-[🚀 Quick Start](#-quick-start) · [📖 Docs](#-documentation) · [🧠 Prompts](#-ai-prompts) · [📊 Stats](#-benchmarks) · [🤝 Contributing](#-contributing)
+[📖 How It Works](#-how-it-works) · [🧠 Prompt Library](#-prompt-library) · [⚡ Quick Start](#-quick-start) · [🤝 Contributing](#-contributing)
 
 ---
 
@@ -35,33 +35,129 @@ next-generation UX intelligence 2026
 
 <br/>
 
-## 🌐 What is NexaUX?
+## 💡 What is NexaUX?
 
-**NexaUX** is a full-stack UX optimization framework that transforms existing websites into high-converting, personalized, data-driven digital experiences — without rebuilding from scratch.
+NexaUX is **not a code library**. It is a **battle-tested collection of AI prompts** written specifically to instruct AI coding agents — like **Cursor**, **GitHub Copilot**, **Claude**, **Windsurf**, **Codeium**, and others — to do the heavy lifting for you.
 
-It combines five engineering layers:
+Each prompt is a precise, opinionated brief that tells the AI agent exactly what to build, what statistics to follow, and how to enhance your existing website — layer by layer — without rebuilding it from scratch.
 
-| Layer | Name | What It Does |
-|:---:|---|---|
-| **0** | 📊 Statistical North Stars | Every decision anchored to 2025–2026 CRO benchmarks |
-| **1** | 📱 Responsive Intelligence | Mobile-first design that closes the 2.49% → 5.06% conversion gap |
-| **2** | 🤖 AI Personalization Engine | Client-side hyper-personalization — up to 200%+ conversion lift |
-| **3** | 🔥 Behavioral Analytics | Heatmaps, scroll depth, exit-intent, zero third-party trackers |
-| **4** | 🎯 Feature Pulse | Data-driven feature prioritization with live scoring algorithm |
+```
+You write nothing.
+You paste a prompt into your AI agent.
+The agent writes your code.
+You review, approve, and ship.
+```
 
 ---
 
 <br/>
 
-## ✨ Key Features
+## 🔧 How It Works
 
-- **⚡ Performance First** — Sites loading ≤1s convert 3× higher. NexaUX targets Lighthouse ≥90 mobile by default
-- **🎯 AI Personalization** — Adapts hero content, CTAs, and messaging to device, time, behavior, and visit history
-- **📊 Privacy-First Analytics** — Full behavioral tracking stored locally; no Google Analytics, no third-party data
-- **🔁 Continuous Optimization** — Built-in A/B test scaffolding; companies testing 10+/month grow 2.1× faster
-- **📱 Mobile-Native** — Sticky CTAs (+12% lift), digital wallet detection (+21% lift), thumb-zone navigation
-- **🧪 CRO Quick Wins** — 11 statistically proven UX improvements baked in from day one
-- **🔒 Zero Dependencies** — Vanilla JS core; no bloat, no lock-in, no privacy concerns
+### Step 1 — Pick Your AI Agent
+
+NexaUX prompts work with any of these:
+
+| Agent | Where to Paste the Prompt |
+|---|---|
+| **Cursor** | `Ctrl+L` → Chat panel → Paste prompt |
+| **GitHub Copilot** | Copilot Chat sidebar → Paste prompt |
+| **Claude** | claude.ai or Claude in your IDE → Paste prompt |
+| **Windsurf (Codeium)** | Cascade chat panel → Paste prompt |
+| **Zed AI** | AI inline assistant → Paste prompt |
+| **Any other AI IDE** | Open the chat / agent panel → Paste prompt |
+
+### Step 2 — Open Your Project
+
+Open your existing website project in your AI-powered IDE. The prompts are written to **enhance what you already have** — not replace it.
+
+### Step 3 — Paste a Prompt
+
+Choose a prompt from the library below, copy it, and paste it into your AI agent's chat. The agent reads your codebase and applies the changes automatically.
+
+### Step 4 — Review & Ship
+
+Review the AI's output, request adjustments if needed, and push to production.
+
+---
+
+<br/>
+
+## 🧠 Prompt Library
+
+All prompts live in the [`/prompts`](./prompts/) folder. Here is what's available:
+
+---
+
+### 🔑 Master Prompt — Full Enhancement (Start Here)
+> Runs all 5 layers in sequence. Best for a full website upgrade.
+
+📄 [`prompts/master-enhancement.md`](./prompts/master-enhancement.md)
+
+```
+Covers: Responsive design · AI personalization · Behavioral analytics ·
+Feature prioritization · 11 CRO quick wins · 2025–2026 benchmark targets
+```
+
+---
+
+### 📱 Layer 1 — Responsive Design Prompt
+> Makes your site look and work perfectly on phone and desktop.
+
+📄 [`prompts/layer-1-responsive.md`](./prompts/layer-1-responsive.md)
+
+```
+Covers: Mobile-first CSS · Fluid grids · Breakpoints · Sticky CTAs ·
+Touch targets · Skeleton loaders · Digital wallet detection
+```
+
+---
+
+### 🤖 Layer 2 — AI Personalization Prompt
+> Instructs the agent to build a client-side personalization engine.
+
+📄 [`prompts/layer-2-personalization.md`](./prompts/layer-2-personalization.md)
+
+```
+Covers: Device/time/visit signals · Dynamic hero swaps · CTA variants ·
+Returning visitor mode · Segment self-selection · localStorage only
+```
+
+---
+
+### 📊 Layer 3 — Behavioral Analytics Prompt
+> Builds a zero-dependency, privacy-first analytics and heatmap system.
+
+📄 [`prompts/layer-3-analytics.md`](./prompts/layer-3-analytics.md)
+
+```
+Covers: Scroll depth tracking · Click heatmaps · CTA performance ·
+Exit-intent detection · Hidden dev dashboard (Shift+Alt+D)
+```
+
+---
+
+### 🎯 Layer 4 — Feature Pulse Prompt
+> Builds a data-driven feature prioritization widget.
+
+📄 [`prompts/layer-4-feature-pulse.md`](./prompts/layer-4-feature-pulse.md)
+
+```
+Covers: Priority scoring algorithm · User upvoting · Trending badges ·
+GitHub changelog panel · Feature engagement reports
+```
+
+---
+
+### ⚡ Layer 5 — CRO Quick Wins Prompt
+> 11 statistically proven improvements applied in one pass.
+
+📄 [`prompts/layer-5-cro-quickwins.md`](./prompts/layer-5-cro-quickwins.md)
+
+```
+Covers: Above-fold CTAs · Social proof placement · Form autofill ·
+Trust badges · Real-people imagery · Micro-copy rewrites · Video blocks
+```
 
 ---
 
@@ -72,42 +168,20 @@ It combines five engineering layers:
 ```
 nexa-ux/
 │
-├── 📂 .github/
-│   ├── copilot-instructions.md       # AI prompt for GitHub Copilot
-│   ├── PROMPTS.md                    # Master enhancement prompts
-│   └── PULL_REQUEST_TEMPLATE.md
-│
-├── 📂 src/
-│   ├── 📂 core/
-│   │   ├── personalization.js        # Layer 2 — AI personalization engine
-│   │   ├── analytics.js              # Layer 3 — behavioral tracking
-│   │   └── feature-pulse.js          # Layer 4 — priority scoring widget
-│   │
-│   ├── 📂 styles/
-│   │   ├── responsive.css            # Layer 1 — mobile-first breakpoints
-│   │   ├── cro-quickwins.css         # Layer 5 — conversion utility classes
-│   │   └── variables.css             # Design tokens
-│   │
-│   └── 📂 components/
-│       ├── StickyCtaMobile.js        # +12% mobile conversion
-│       ├── ExitIntentBanner.js       # Retention trigger
-│       ├── SocialProofStrip.js       # +50% form submissions
-│       └── FeaturePulseWidget.js     # Priority scoring UI
-│
 ├── 📂 prompts/
-│   ├── master-enhancement.md         # 🧠 The full master prompt
-│   ├── personalization-layer.md      # Standalone personalization prompt
-│   ├── analytics-layer.md            # Standalone analytics prompt
-│   └── cro-quickwins.md              # Quick wins only prompt
+│   ├── master-enhancement.md         # 🔑 Full 5-layer prompt (start here)
+│   ├── layer-1-responsive.md         # 📱 Responsive design
+│   ├── layer-2-personalization.md    # 🤖 AI personalization engine
+│   ├── layer-3-analytics.md          # 📊 Behavioral analytics + heatmaps
+│   ├── layer-4-feature-pulse.md      # 🎯 Feature prioritization widget
+│   └── layer-5-cro-quickwins.md      # ⚡ 11 proven CRO improvements
+│
+├── 📂 .github/
+│   └── copilot-instructions.md       # Auto-feeds context to GitHub Copilot
 │
 ├── 📂 docs/
-│   ├── ANALYTICS_DASHBOARD.md        # How to read your behavioral data
 │   ├── BENCHMARKS.md                 # Full 2025–2026 CRO statistics
-│   ├── PERSONALIZATION_GUIDE.md      # Personalization signal reference
-│   └── performance.md                # Lighthouse optimization guide
-│
-├── 📂 tests/
-│   └── ab-test-scaffolds/            # Pre-built A/B test templates
+│   └── HOW_TO_USE_WITH_CURSOR.md     # Step-by-step Cursor walkthrough
 │
 ├── README.md                         # ← You are here
 ├── CHANGELOG.md
@@ -119,112 +193,86 @@ nexa-ux/
 
 <br/>
 
-## 🚀 Quick Start
-
-### 1. Clone the Repository
+## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/nexa-ux.git
-cd nexa-ux
+# 1. Clone NexaUX
+git clone https://github.com/mdabir1203/nexa-ux.git
+
+# 2. Open the prompt you need
+open prompts/master-enhancement.md
+
+# 3. Copy the full prompt text
+
+# 4. Open your website project in Cursor / Copilot / Claude / Windsurf
+
+# 5. Paste into the AI agent chat and let it work
 ```
 
-### 2. Add NexaUX to Your Existing Site
-
-```html
-<!-- Add before closing </body> tag -->
-<link rel="stylesheet" href="src/styles/responsive.css" />
-<link rel="stylesheet" href="src/styles/cro-quickwins.css" />
-
-<script src="src/core/analytics.js" defer></script>
-<script src="src/core/personalization.js" defer></script>
-<script src="src/core/feature-pulse.js" defer></script>
-```
-
-### 3. Initialize the Personalization Engine
-
-```javascript
-// In your main JS file
-NexaUX.init({
-  site: 'my-website',
-  segments: ['Student', 'Professional', 'Enterprise'],
-  personalization: true,
-  analytics: true,
-  featurePulse: true,
-  githubRepo: 'YOUR_USERNAME/YOUR_REPO' // optional changelog
-});
-```
-
-### 4. Open the Analytics Dashboard
-
-Press **`Shift + Alt + D`** on any page to open the built-in behavioral dashboard.
+That's it. The AI agent does the rest.
 
 ---
 
 <br/>
 
-## 📊 Benchmarks
+## 📊 What These Prompts Are Built Around
 
-NexaUX is built around these verified 2025–2026 conversion statistics:
+Every prompt in NexaUX is grounded in real 2025–2026 conversion rate science:
 
 <details>
-<summary>📈 Speed & Performance</summary>
+<summary>⚡ Speed & Performance Targets</summary>
 
-| Metric | Stat |
+| Stat | Benchmark |
 |---|---|
 | Sites loading ≤1s vs 5s | **3× higher conversion rate** |
-| Users abandoning at 3s+ load | **53%** |
-| Lift per 1-second improvement | **+4–7% conversions** |
-| Sites slower than Google's 5s bar | **85%** — beating them puts you top 15% |
+| Users abandoning at 3s+ | **53% leave** |
+| Per 1-second improvement | **+4–7% conversions** |
 
 </details>
 
 <details>
-<summary>📱 Mobile vs Desktop</summary>
+<summary>📱 Mobile Conversion Gap</summary>
 
-| Metric | Stat |
+| Stat | Benchmark |
 |---|---|
-| Mobile traffic share | **~65%** |
+| Mobile traffic share | **~65% of all visits** |
 | Mobile conversion rate | **2.49%** |
 | Desktop conversion rate | **5.06%** |
-| Sticky CTA on mobile | **+12% conversions** |
-| Digital wallet integration | **+21% mobile conversions** |
-| Mobile-first design vs desktop-first | **+17% performance** |
+| Sticky CTA lift | **+12%** |
+| Digital wallet buttons | **+21% mobile conversions** |
 
 </details>
 
 <details>
-<summary>🤖 Personalization</summary>
+<summary>🤖 Personalization Lift</summary>
 
-| Metric | Stat |
+| Stat | Benchmark |
 |---|---|
-| Personalized vs generic experiences | **Up to +200% conversions** |
+| Personalized vs generic | **Up to +200% conversions** |
 | AI content recommendations | **+19% revenue per session** |
-| Personalized vs generic emails | **+18% conversion rate** |
 
 </details>
 
 <details>
-<summary>🎨 UX & Design</summary>
+<summary>🎨 UX & Design Impact</summary>
 
-| Metric | Stat |
+| Stat | Benchmark |
 |---|---|
-| UX improvements alone | **+30% conversion rate** |
 | Heatmap-optimized pages | **+14% conversions** |
-| Reducing above-fold clutter | **+16% engagement** |
+| CTAs above the fold | **+138% (Enhance Insurance, UK)** |
 | Real people vs stock photos | **+20% trust** |
+| Social proof above forms | **+50% form submissions** |
 | Micro-copy rewrites | **+8% conversion lift** |
-| CTAs above the fold | **Up to +138% (Enhance Insurance, UK)** |
 
 </details>
 
 <details>
-<summary>🔁 Testing & Iteration</summary>
+<summary>🔁 Testing Velocity</summary>
 
-| Metric | Stat |
+| Stat | Benchmark |
 |---|---|
-| Companies running 10+ tests/month | **Grow 2.1× faster** |
+| 10+ tests per month | **Grow 2.1× faster** |
 | AI-assisted test ideation | **+23% win rates** |
-| Layout redesign tests | **18–40% lift range** |
 
 </details>
 
@@ -232,26 +280,7 @@ NexaUX is built around these verified 2025–2026 conversion statistics:
 
 <br/>
 
-## 🧠 AI Prompts
-
-NexaUX ships with a library of production-ready AI prompts. Use them with Claude, GitHub Copilot, Cursor, or any LLM:
-
-| Prompt | Description | Location |
-|---|---|---|
-| 🔑 **Master Prompt** | Full 5-layer enhancement brief | [`prompts/master-enhancement.md`](prompts/master-enhancement.md) |
-| 🤖 **Personalization** | AI engine layer only | [`prompts/personalization-layer.md`](prompts/personalization-layer.md) |
-| 📊 **Analytics** | Behavioral tracking layer only | [`prompts/analytics-layer.md`](prompts/analytics-layer.md) |
-| ⚡ **CRO Quick Wins** | 11 proven improvements, fast | [`prompts/cro-quickwins.md`](prompts/cro-quickwins.md) |
-
-> **GitHub Copilot Users:** The `.github/copilot-instructions.md` file automatically feeds the NexaUX context into every Copilot suggestion in this repo.
-
----
-
-<br/>
-
-## 🏆 Industry Conversion Benchmarks
-
-Know what you're building toward:
+## 🏆 Industry Benchmarks (Know What You're Beating)
 
 | Industry | Average CVR | High-Performer CVR |
 |---|---|---|
@@ -261,25 +290,23 @@ Know what you're building toward:
 | Finance | 10% | 20%+ |
 | Social / Community | 2.4% | 5%+ |
 
-> Seamless UX optimization can boost conversions by **up to 400%** — NexaUX is your roadmap there.
-
 ---
 
 <br/>
 
 ## 🗺️ Roadmap
 
-- [x] Layer 0 — Statistical benchmark foundation
-- [x] Layer 1 — Responsive mobile-first system
-- [x] Layer 2 — Client-side personalization engine
-- [x] Layer 3 — Behavioral analytics + dev dashboard
-- [x] Layer 4 — Feature Pulse widget + scoring algorithm
-- [x] Layer 5 — CRO quick wins library
-- [ ] Layer 6 — A/B test runner (built-in, no Optimizely needed)
-- [ ] Layer 7 — Multivariate test scaffolding
-- [ ] Layer 8 — AI-generated CTA copy suggestions
-- [ ] Layer 9 — Real-time session replay (privacy-safe)
-- [ ] Layer 10 — NexaUX CLI (`npx nexaux init`)
+- [x] Master enhancement prompt
+- [x] Layer 1 — Responsive design prompt
+- [x] Layer 2 — AI personalization prompt
+- [x] Layer 3 — Behavioral analytics prompt
+- [x] Layer 4 — Feature Pulse prompt
+- [x] Layer 5 — CRO quick wins prompt
+- [ ] Layer 6 — A/B test prompt (no Optimizely needed)
+- [ ] Layer 7 — SEO optimization prompt
+- [ ] Layer 8 — Accessibility (WCAG 2.2) audit prompt
+- [ ] Layer 9 — Performance audit + Lighthouse fix prompt
+- [ ] Layer 10 — Multilingual / i18n prompt
 
 ---
 
@@ -287,15 +314,14 @@ Know what you're building toward:
 
 ## 🤝 Contributing
 
-Contributions are welcome and celebrated. To contribute:
+Have a prompt that consistently produces great results? Contribute it.
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/layer-name`
-3. Commit your changes: `git commit -m "feat: add [feature name]"`
-4. Push to your fork: `git push origin feature/layer-name`
-5. Open a Pull Request
+2. Add your prompt to `/prompts/` with a clear filename
+3. Include a short header comment explaining what the prompt does
+4. Open a Pull Request with a brief description
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for our code standards and review process.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 ---
 
@@ -303,8 +329,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for our code standards and review
 
 ## 📄 License
 
-NexaUX is released under the [MIT License](LICENSE).  
-Free to use, modify, and distribute — attribution appreciated.
+NexaUX is released under the [MIT License](LICENSE).
+Free to use, adapt, and share — attribution appreciated.
 
 ---
 
@@ -312,21 +338,23 @@ Free to use, modify, and distribute — attribution appreciated.
 
 <div align="center">
 
-**Built with obsession over conversion science.**
-
-*Every pixel. Every millisecond. Every signal.*
+**Prompts that think. Agents that build. You that ship.**
 
 <br/>
 
-⭐ **Star this repo** if NexaUX helped you ship better experiences.
+⭐ **Star this repo** if NexaUX saved you hours of writing briefs.
 
 <br/>
 
-[![GitHub stars](https://img.shields.io/github/stars/mdabir1203/nexa-ux?style=for-the-badge&color=6366f1)](https://github.com/YOUR_USERNAME/nexa-ux/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/mdabir1203/nexa-ux?style=for-the-badge&color=6366f1)](https://github.com/mdabir1203/nexa-ux/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/mdabir1203/nexa-ux?style=for-the-badge&color=f59e0b)](https://github.com/mdabir1203/nexa-ux/network)
 [![GitHub issues](https://img.shields.io/github/issues/mdabir1203/nexa-ux?style=for-the-badge&color=ef4444)](https://github.com/mdabir1203/nexa-ux/issues)
 
 <br/>
+
+*NexaUX — Next-Generation UX Intelligence*
+
+</div>
 
 *NexaUX — Next-Generation UX Intelligence*
 
